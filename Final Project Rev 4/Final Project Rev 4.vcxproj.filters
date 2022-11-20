@@ -1,0 +1,1676 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="glad.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="shader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ShapeGenerator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="grass.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="ornate.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="hedge.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="purpFlowers.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="brick.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="dirt.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="sky.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="camera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="linmath.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mesh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="shader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="shader.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ShapeData.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ShapeGenerator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stb_image.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Vertex.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\src\VCPKG\vcpkg\installed\x86-windows\include\gl\glew.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\__msvc_system_error_abi.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\__msvc_xlocinfo_types.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\OpenGL\glm\glm\detail\_fixes.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\OpenGL\glm\glm\detail\_swizzle.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\src\VCPKG\vcpkg\installed\x86-windows\include\gl\GL.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\OpenGL\GLAD\glad\glad.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\OpenGL\GLFW\include\GLFW\glfw3.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\OpenGL\glm\glm\glm.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\src\VCPKG\vcpkg\installed\x86-windows\include\gl\GLU.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\OpenGL\glm\glm\mat2x2.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\OpenGL\glm\glm\mat2x3.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\OpenGL\glm\glm\mat2x4.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\OpenGL\glm\glm\mat3x2.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\OpenGL\glm\glm\mat3x3.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\OpenGL\glm\glm\mat3x4.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\OpenGL\glm\glm\mat4x2.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\OpenGL\glm\glm\mat4x3.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\OpenGL\glm\glm\mat4x4.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\math.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\OpenGL\glm\glm\simd\matrix.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\OpenGL\glm\glm\matrix.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\OpenGL\glm\glm\ext\matrix_clip_space.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\OpenGL\glm\glm\ext\matrix_double2x2.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\OpenGL\glm\glm\ext\matrix_double2x2_precision.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\OpenGL\glm\glm\ext\matrix_double2x3.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\OpenGL\glm\glm\ext\matrix_double2x3_precision.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\OpenGL\glm\glm\ext\matrix_double2x4.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\OpenGL\glm\glm\ext\matrix_double2x4_precision.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\OpenGL\glm\glm\ext\matrix_double3x2.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\OpenGL\glm\glm\ext\matrix_double3x2_precision.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\OpenGL\glm\glm\ext\matrix_double3x3.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\OpenGL\glm\glm\ext\matrix_double3x3_precision.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\OpenGL\glm\glm\ext\matrix_double3x4.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\OpenGL\glm\glm\ext\matrix_double3x4_precision.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\OpenGL\glm\glm\ext\matrix_double4x2.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\OpenGL\glm\glm\ext\matrix_double4x2_precision.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\OpenGL\glm\glm\ext\matrix_double4x3.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\OpenGL\glm\glm\ext\matrix_double4x3_precision.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\OpenGL\glm\glm\ext\matrix_double4x4.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\OpenGL\glm\glm\ext\matrix_double4x4_precision.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\OpenGL\glm\glm\ext\matrix_float2x2.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\OpenGL\glm\glm\ext\matrix_float2x2_precision.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\OpenGL\glm\glm\ext\matrix_float2x3.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\OpenGL\glm\glm\ext\matrix_float2x3_precision.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\OpenGL\glm\glm\ext\matrix_float2x4.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\OpenGL\glm\glm\ext\matrix_float2x4_precision.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\OpenGL\glm\glm\ext\matrix_float3x2.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\OpenGL\glm\glm\ext\matrix_float3x2_precision.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\OpenGL\glm\glm\ext\matrix_float3x3.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\OpenGL\glm\glm\ext\matrix_float3x3_precision.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\OpenGL\glm\glm\ext\matrix_float3x4.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\OpenGL\glm\glm\ext\matrix_float3x4_precision.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\OpenGL\glm\glm\ext\matrix_float4x2.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\OpenGL\glm\glm\ext\matrix_float4x2_precision.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\OpenGL\glm\glm\ext\matrix_float4x3.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\OpenGL\glm\glm\ext\matrix_float4x3_precision.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\OpenGL\glm\glm\ext\matrix_float4x4.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\OpenGL\glm\glm\ext\matrix_float4x4_precision.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\OpenGL\glm\glm\ext\matrix_projection.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\OpenGL\glm\glm\ext\matrix_transform.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\OpenGL\glm\glm\gtc\matrix_transform.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\OpenGL\glm\glm\detail\_swizzle_func.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\OpenGL\glm\glm\detail\_vectorize.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ammintrin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\apiquery2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\apiset.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\apisetcconv.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\arm_neon.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\arm64_neon.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\arm64intr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\armintr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\assert.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\basetsd.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\bcrypt.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\cderr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\cguid.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\combaseapi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\coml2api.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\commdlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\OpenGL\glm\glm\simd\common.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\OpenGL\glm\glm\common.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\OpenGL\glm\glm\detail\compute_common.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\OpenGL\glm\glm\detail\compute_vector_relational.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\concurrencysal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\consoleapi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\consoleapi2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\consoleapi3.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\OpenGL\glm\glm\gtc\constants.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\corecrt.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\corecrt_malloc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\corecrt_math.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\corecrt_math_defines.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\corecrt_memcpy_s.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\corecrt_memory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\corecrt_search.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\corecrt_share.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\corecrt_stdio_config.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\corecrt_terminate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\corecrt_wconio.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\corecrt_wctype.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\corecrt_wdirect.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\corecrt_wio.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\corecrt_wprocess.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\corecrt_wstdio.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\corecrt_wstdlib.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\corecrt_wstring.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\corecrt_wtime.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\crtdbg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\crtdefs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\ctype.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\datetimeapi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\dde.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\ddeml.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\debugapi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\dlgs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\dpapi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\driverspecs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\eh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\emmintrin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\enclaveapi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\OpenGL\glm\glm\gtc\epsilon.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\errhandlingapi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\errno.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\excpt.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\OpenGL\glm\glm\simd\exponential.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\OpenGL\glm\glm\exponential.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\fibersapi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\fileapi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\fileapifromapp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\float.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\OpenGL\glm\glm\fwd.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\OpenGL\glm\glm\simd\geometric.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\OpenGL\glm\glm\geometric.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\guiddef.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\handleapi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\heapapi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\ime_cmodes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\imm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\immintrin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\inaddr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\OpenGL\glm\glm\simd\integer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\OpenGL\glm\glm\integer.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\interlockedapi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\intrin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\intrin0.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\intrin0.inl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\inttypes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\ioapiset.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\isa_availability.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\jobapi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\jobapi2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\joystickapi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\kernelspecs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\OpenGL\GLAD\khrplatform.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\ktmtypes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\libloaderapi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\limits.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\locale.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\lzexpand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\malloc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\mciapi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\mcx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\memoryapi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\minwinbase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\minwindef.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\mm3dnow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\mmeapi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\mmintrin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\mmiscapi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\mmiscapi2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\mmsyscom.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\mmsystem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\msxml.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\namedpipeapi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\namespaceapi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\nb30.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\ncrypt.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\OpenGL\glm\glm\simd\neon.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\nmmintrin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\no_sal2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\OAIdl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\objbase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\ObjIdl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\ObjIdlbase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\ole.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\Ole2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\OleAuto.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\oleidl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\OpenGL\glm\glm\packing.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\OpenGL\glm\glm\simd\platform.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\playsoundapi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\pmmintrin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\poppack.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\processenv.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\processthreadsapi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\processtopologyapi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\profileapi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\PropIdl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\PropIdlBase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\prsht.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\pshpack1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\pshpack2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\pshpack4.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\pshpack8.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\OpenGL\glm\glm\detail\qualifier.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\OpenGL\glm\glm\gtc\quaternion.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\OpenGL\glm\glm\ext\quaternion_common.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\OpenGL\glm\glm\ext\quaternion_double.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\OpenGL\glm\glm\ext\quaternion_double_precision.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\OpenGL\glm\glm\ext\quaternion_float.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\OpenGL\glm\glm\ext\quaternion_float_precision.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\OpenGL\glm\glm\ext\quaternion_geometric.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\OpenGL\glm\glm\ext\quaternion_relational.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\OpenGL\glm\glm\ext\quaternion_transform.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\OpenGL\glm\glm\ext\quaternion_trigonometric.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\realtimeapiset.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\reason.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\rpc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\rpcasync.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\rpcdce.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\rpcdcep.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\rpcndr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\rpcnsi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\rpcnsip.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\rpcnterr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\rpcsal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\sal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\OpenGL\glm\glm\ext\scalar_constants.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\SCardErr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\sdkddkver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\sdv_driverspecs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\securityappcontainer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\securitybaseapi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\servprov.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\setjmp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\setjmpex.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\OpenGL\glm\glm\detail\setup.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\share.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\shellapi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\smmintrin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\codeanalysis\sourceannotations.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\specstrings.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\specstrings_strict.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\specstrings_undef.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\sys\stat.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\stdarg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\stddef.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\stdint.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\stdio.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\stdlib.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\stralign.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\string.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\stringapiset.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\synchapi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\sysinfoapi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\systemtopologyapi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\threadpoolapiset.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\threadpoollegacyapiset.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\time.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\timeapi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\timezoneapi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\tmmintrin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\OpenGL\glm\glm\gtx\transform.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\OpenGL\glm\glm\trigonometric.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\tvout.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\OpenGL\glm\glm\detail\type_float.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\OpenGL\glm\glm\detail\type_half.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\OpenGL\glm\glm\detail\type_mat2x2.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\OpenGL\glm\glm\detail\type_mat2x3.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\OpenGL\glm\glm\detail\type_mat2x4.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\OpenGL\glm\glm\detail\type_mat3x2.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\OpenGL\glm\glm\detail\type_mat3x3.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\OpenGL\glm\glm\detail\type_mat3x4.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\OpenGL\glm\glm\detail\type_mat4x2.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\OpenGL\glm\glm\detail\type_mat4x3.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\OpenGL\glm\glm\detail\type_mat4x4.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\OpenGL\glm\glm\gtc\type_ptr.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\OpenGL\glm\glm\detail\type_quat.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\OpenGL\glm\glm\detail\type_vec1.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\OpenGL\glm\glm\detail\type_vec2.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\OpenGL\glm\glm\detail\type_vec3.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\OpenGL\glm\glm\detail\type_vec4.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\sys\types.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\Unknwn.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\Unknwnbase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\urlmon.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\use_ansi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\utilapiset.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\vadefs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\vcruntime.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\vcruntime_exception.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\vcruntime_new.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\vcruntime_new_debug.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\vcruntime_string.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\vcruntime_typeinfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\OpenGL\glm\glm\gtc\vec1.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\OpenGL\glm\glm\vec2.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\OpenGL\glm\glm\vec3.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\OpenGL\glm\glm\vec4.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\OpenGL\glm\glm\ext\vector_bool1.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\OpenGL\glm\glm\ext\vector_bool1_precision.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\OpenGL\glm\glm\ext\vector_bool2.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\OpenGL\glm\glm\ext\vector_bool2_precision.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\OpenGL\glm\glm\ext\vector_bool3.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\OpenGL\glm\glm\ext\vector_bool3_precision.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\OpenGL\glm\glm\ext\vector_bool4.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\OpenGL\glm\glm\ext\vector_bool4_precision.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\OpenGL\glm\glm\ext\vector_double1.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\OpenGL\glm\glm\ext\vector_double1_precision.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\OpenGL\glm\glm\ext\vector_double2.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\OpenGL\glm\glm\ext\vector_double2_precision.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\OpenGL\glm\glm\ext\vector_double3.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\OpenGL\glm\glm\ext\vector_double3_precision.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\OpenGL\glm\glm\ext\vector_double4.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\OpenGL\glm\glm\ext\vector_double4_precision.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\OpenGL\glm\glm\ext\vector_float1.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\OpenGL\glm\glm\ext\vector_float1_precision.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\OpenGL\glm\glm\ext\vector_float2.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\OpenGL\glm\glm\ext\vector_float2_precision.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\OpenGL\glm\glm\ext\vector_float3.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\OpenGL\glm\glm\ext\vector_float3_precision.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\OpenGL\glm\glm\ext\vector_float4.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\OpenGL\glm\glm\ext\vector_float4_precision.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\OpenGL\glm\glm\ext\vector_int1.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\OpenGL\glm\glm\ext\vector_int1_precision.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\OpenGL\glm\glm\ext\vector_int2.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\OpenGL\glm\glm\ext\vector_int2_precision.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\OpenGL\glm\glm\ext\vector_int3.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\OpenGL\glm\glm\ext\vector_int3_precision.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\OpenGL\glm\glm\ext\vector_int4.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\OpenGL\glm\glm\ext\vector_int4_precision.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\OpenGL\glm\glm\vector_relational.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\OpenGL\glm\glm\ext\vector_relational.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\OpenGL\glm\glm\ext\vector_uint1.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\OpenGL\glm\glm\ext\vector_uint1_precision.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\OpenGL\glm\glm\ext\vector_uint2.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\OpenGL\glm\glm\ext\vector_uint2_precision.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\OpenGL\glm\glm\ext\vector_uint3.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\OpenGL\glm\glm\ext\vector_uint3_precision.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\OpenGL\glm\glm\ext\vector_uint4.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\OpenGL\glm\glm\ext\vector_uint4_precision.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\verrsrc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\wchar.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\winapifamily.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\WinBase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\wincon.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\wincontypes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\wincrypt.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\windef.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\Windows.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winefs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\winerror.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\wingdi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winioctl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winnetwk.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\WinNls.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winnt.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\winpackagefamily.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winperf.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winreg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winresrc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winscard.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\winsmcrd.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winsock.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winspool.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winsvc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\WinUser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\wmmintrin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\wnnc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\wow64apiset.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\wtypes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\WTypesbase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\xatomic.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\xatomic_wait.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\xcall_once.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\xerrc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\xkeycheck.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\xmmintrin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\xpolymorphic_allocator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\xthreads.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\xtimec.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\yvals.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\yvals_core.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\zmmintrin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\__msvc_iter_core.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\__msvc_system_error_abi.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\__msvc_xlocinfo_types.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\ammintrin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\arm_neon.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\arm64_neon.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\arm64intr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\armintr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\concurrencysal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\crtdefs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\eh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\emmintrin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\excpt.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\immintrin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\intrin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\intrin0.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\intrin0.inl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\isa_availability.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\limits.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\mm3dnow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\mmintrin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\nmmintrin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\pmmintrin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\sal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\setjmp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\setjmpex.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\smmintrin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\CodeAnalysis\sourceannotations.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\stdarg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\stdint.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\tmmintrin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\use_ansi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\vadefs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\vcruntime.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\vcruntime_exception.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\vcruntime_new.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\vcruntime_new_debug.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\vcruntime_string.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\vcruntime_typeinfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\wmmintrin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xatomic.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xatomic_wait.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xcall_once.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xerrc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xkeycheck.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xmmintrin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xpolymorphic_allocator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xthreads.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xtimec.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\yvals.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\yvals_core.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\zmmintrin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\..\OpenGL\GLEW\include\GL\glew.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\..\..\..\..\..\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\cstddef" />
+    <None Include="..\..\..\..\..\..\..\..\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\cstdint" />
+    <None Include="..\..\..\..\..\..\..\..\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\cstdio" />
+    <None Include="..\..\..\..\..\..\..\..\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\cstdlib" />
+    <None Include="..\..\..\..\..\..\..\..\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\cstring" />
+    <None Include="..\..\..\..\..\..\..\..\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ctime" />
+    <None Include="..\..\..\..\..\..\..\..\OpenGL\glm\glm\ext\matrix_clip_space.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\..\OpenGL\glm\glm\ext\matrix_projection.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\..\OpenGL\glm\glm\gtc\matrix_transform.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\..\OpenGL\glm\glm\ext\matrix_transform.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\..\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\algorithm" />
+    <None Include="..\..\..\..\..\..\..\..\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\atomic" />
+    <None Include="..\..\..\..\..\..\..\..\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\bit" />
+    <None Include="..\..\..\..\..\..\..\..\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\cassert" />
+    <None Include="..\..\..\..\..\..\..\..\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\cctype" />
+    <None Include="..\..\..\..\..\..\..\..\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\cerrno" />
+    <None Include="..\..\..\..\..\..\..\..\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\cfloat" />
+    <None Include="..\..\..\..\..\..\..\..\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\climits" />
+    <None Include="..\..\..\..\..\..\..\..\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\clocale" />
+    <None Include="..\..\..\..\..\..\..\..\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\cmath" />
+    <None Include="..\..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\commctrl.rh" />
+    <None Include="..\..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\commdlg.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\..\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\compare" />
+    <None Include="..\..\..\..\..\..\..\..\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\concepts" />
+    <None Include="..\..\..\..\..\..\..\..\OpenGL\glm\glm\gtc\constants.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\..\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\cwchar" />
+    <None Include="..\..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\dde.rh" />
+    <None Include="..\..\..\..\..\..\..\..\OpenGL\glm\glm\gtc\epsilon.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\..\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\exception" />
+    <None Include="..\..\..\..\..\..\..\..\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\fstream" />
+    <None Include="..\..\..\..\..\..\..\..\OpenGL\glm\glm\detail\func_common.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\..\OpenGL\glm\glm\detail\func_common_simd.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\..\OpenGL\glm\glm\detail\func_exponential.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\..\OpenGL\glm\glm\detail\func_exponential_simd.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\..\OpenGL\glm\glm\detail\func_geometric.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\..\OpenGL\glm\glm\detail\func_geometric_simd.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\..\OpenGL\glm\glm\detail\func_integer.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\..\OpenGL\glm\glm\detail\func_integer_simd.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\..\OpenGL\glm\glm\detail\func_matrix.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\..\OpenGL\glm\glm\detail\func_matrix_simd.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\..\OpenGL\glm\glm\detail\func_packing.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\..\OpenGL\glm\glm\detail\func_packing_simd.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\..\OpenGL\glm\glm\detail\func_trigonometric.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\..\OpenGL\glm\glm\detail\func_trigonometric_simd.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\..\OpenGL\glm\glm\detail\func_vector_relational.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\..\OpenGL\glm\glm\detail\func_vector_relational_simd.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\..\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\initializer_list" />
+    <None Include="..\..\..\..\..\..\..\..\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ios" />
+    <None Include="..\..\..\..\..\..\..\..\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\iosfwd" />
+    <None Include="..\..\..\..\..\..\..\..\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\iostream" />
+    <None Include="..\..\..\..\..\..\..\..\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\istream" />
+    <None Include="..\..\..\..\..\..\..\..\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\iterator" />
+    <None Include="..\..\..\..\..\..\..\..\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\limits" />
+    <None Include="..\..\..\..\..\..\..\..\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\memory" />
+    <None Include="..\..\..\..\..\..\..\..\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\new" />
+    <None Include="..\..\..\..\..\..\..\..\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream" />
+    <None Include="..\..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\prsht.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\..\OpenGL\glm\glm\gtc\quaternion.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\..\OpenGL\glm\glm\ext\quaternion_common.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\..\OpenGL\glm\glm\ext\quaternion_common_simd.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\..\OpenGL\glm\glm\ext\quaternion_geometric.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\..\OpenGL\glm\glm\ext\quaternion_relational.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\..\OpenGL\glm\glm\gtc\quaternion_simd.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\..\OpenGL\glm\glm\ext\quaternion_transform.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\..\OpenGL\glm\glm\ext\quaternion_trigonometric.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\..\OpenGL\glm\glm\ext\scalar_constants.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\..\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\sstream" />
+    <None Include="..\..\..\..\..\..\..\..\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\stdexcept" />
+    <None Include="..\..\..\..\..\..\..\..\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\streambuf" />
+    <None Include="..\..\..\..\..\..\..\..\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\string" />
+    <None Include="..\..\..\..\..\..\..\..\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\system_error" />
+    <None Include="..\..\..\..\..\..\..\..\OpenGL\glm\glm\gtx\transform.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\..\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\tuple" />
+    <None Include="..\..\..\..\..\..\..\..\OpenGL\glm\glm\detail\type_half.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\..\OpenGL\glm\glm\detail\type_mat2x2.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\..\OpenGL\glm\glm\detail\type_mat2x3.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\..\OpenGL\glm\glm\detail\type_mat2x4.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\..\OpenGL\glm\glm\detail\type_mat3x2.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\..\OpenGL\glm\glm\detail\type_mat3x3.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\..\OpenGL\glm\glm\detail\type_mat3x4.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\..\OpenGL\glm\glm\detail\type_mat4x2.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\..\OpenGL\glm\glm\detail\type_mat4x3.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\..\OpenGL\glm\glm\detail\type_mat4x4.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\..\OpenGL\glm\glm\detail\type_mat4x4_simd.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\..\OpenGL\glm\glm\gtc\type_ptr.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\..\OpenGL\glm\glm\detail\type_quat.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\..\OpenGL\glm\glm\detail\type_quat_simd.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\..\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\type_traits" />
+    <None Include="..\..\..\..\..\..\..\..\OpenGL\glm\glm\detail\type_vec1.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\..\OpenGL\glm\glm\detail\type_vec2.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\..\OpenGL\glm\glm\detail\type_vec3.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\..\OpenGL\glm\glm\detail\type_vec4.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\..\OpenGL\glm\glm\detail\type_vec4_simd.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\..\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\typeinfo" />
+    <None Include="..\..\..\..\..\..\..\..\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\utility" />
+    <None Include="..\..\..\..\..\..\..\..\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\vector" />
+    <None Include="..\..\..\..\..\..\..\..\OpenGL\glm\glm\ext\vector_relational.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winbase.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winnt.rh" />
+    <None Include="..\..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winuser.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winuser.rh" />
+    <None Include="..\..\..\..\..\..\..\..\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\xfacet" />
+    <None Include="..\..\..\..\..\..\..\..\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\xiosbase" />
+    <None Include="..\..\..\..\..\..\..\..\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\xlocale" />
+    <None Include="..\..\..\..\..\..\..\..\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\xlocinfo" />
+    <None Include="..\..\..\..\..\..\..\..\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\xlocnum" />
+    <None Include="..\..\..\..\..\..\..\..\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\xmemory" />
+    <None Include="..\..\..\..\..\..\..\..\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\xstddef" />
+    <None Include="..\..\..\..\..\..\..\..\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\xstring" />
+    <None Include="..\..\..\..\..\..\..\..\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\xtr1common" />
+    <None Include="..\..\..\..\..\..\..\..\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\xutility" />
+    <None Include="..\..\..\..\..\..\..\..\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\algorithm" />
+    <None Include="..\..\..\..\..\..\..\..\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\atomic" />
+    <None Include="..\..\..\..\..\..\..\..\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\bit" />
+    <None Include="..\..\..\..\..\..\..\..\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\cassert" />
+    <None Include="..\..\..\..\..\..\..\..\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\cctype" />
+    <None Include="..\..\..\..\..\..\..\..\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\cerrno" />
+    <None Include="..\..\..\..\..\..\..\..\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\cfloat" />
+    <None Include="..\..\..\..\..\..\..\..\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\climits" />
+    <None Include="..\..\..\..\..\..\..\..\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\clocale" />
+    <None Include="..\..\..\..\..\..\..\..\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\cmath" />
+    <None Include="..\..\..\..\..\..\..\..\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\compare" />
+    <None Include="..\..\..\..\..\..\..\..\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\concepts" />
+    <None Include="..\..\..\..\..\..\..\..\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\cstddef" />
+    <None Include="..\..\..\..\..\..\..\..\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\cstdint" />
+    <None Include="..\..\..\..\..\..\..\..\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\cstdio" />
+    <None Include="..\..\..\..\..\..\..\..\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\cstdlib" />
+    <None Include="..\..\..\..\..\..\..\..\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\cstring" />
+    <None Include="..\..\..\..\..\..\..\..\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\ctime" />
+    <None Include="..\..\..\..\..\..\..\..\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\cwchar" />
+    <None Include="..\..\..\..\..\..\..\..\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\exception" />
+    <None Include="..\..\..\..\..\..\..\..\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\fstream" />
+    <None Include="..\..\..\..\..\..\..\..\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\initializer_list" />
+    <None Include="..\..\..\..\..\..\..\..\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\ios" />
+    <None Include="..\..\..\..\..\..\..\..\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\iosfwd" />
+    <None Include="..\..\..\..\..\..\..\..\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\iostream" />
+    <None Include="..\..\..\..\..\..\..\..\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\istream" />
+    <None Include="..\..\..\..\..\..\..\..\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\iterator" />
+    <None Include="..\..\..\..\..\..\..\..\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\limits" />
+    <None Include="..\..\..\..\..\..\..\..\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\memory" />
+    <None Include="..\..\..\..\..\..\..\..\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\new" />
+    <None Include="..\..\..\..\..\..\..\..\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\ostream" />
+    <None Include="..\..\..\..\..\..\..\..\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\sstream" />
+    <None Include="..\..\..\..\..\..\..\..\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\stdexcept" />
+    <None Include="..\..\..\..\..\..\..\..\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\streambuf" />
+    <None Include="..\..\..\..\..\..\..\..\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\string" />
+    <None Include="..\..\..\..\..\..\..\..\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\system_error" />
+    <None Include="..\..\..\..\..\..\..\..\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\tuple" />
+    <None Include="..\..\..\..\..\..\..\..\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\type_traits" />
+    <None Include="..\..\..\..\..\..\..\..\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\typeinfo" />
+    <None Include="..\..\..\..\..\..\..\..\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\utility" />
+    <None Include="..\..\..\..\..\..\..\..\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\vector" />
+    <None Include="..\..\..\..\..\..\..\..\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xfacet" />
+    <None Include="..\..\..\..\..\..\..\..\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xiosbase" />
+    <None Include="..\..\..\..\..\..\..\..\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xlocale" />
+    <None Include="..\..\..\..\..\..\..\..\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xlocinfo" />
+    <None Include="..\..\..\..\..\..\..\..\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xlocnum" />
+    <None Include="..\..\..\..\..\..\..\..\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xmemory" />
+    <None Include="..\..\..\..\..\..\..\..\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xstddef" />
+    <None Include="..\..\..\..\..\..\..\..\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xstring" />
+    <None Include="..\..\..\..\..\..\..\..\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xtr1common" />
+    <None Include="..\..\..\..\..\..\..\..\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xutility" />
+  </ItemGroup>
+</Project>

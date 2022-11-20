@@ -1,0 +1,10 @@
+﻿  Source.cpp
+C:\Users\samli\OneDrive\Documents\SNHU\CS 330 - Computational Graphics and Visualization (OpenGL)\FinalProjectRev4\Final Project Rev 4\Source.cpp(361,28): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\samli\OneDrive\Documents\SNHU\CS 330 - Computational Graphics and Visualization (OpenGL)\FinalProjectRev4\Final Project Rev 4\Source.cpp(507,18): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\samli\OneDrive\Documents\SNHU\CS 330 - Computational Graphics and Visualization (OpenGL)\FinalProjectRev4\Final Project Rev 4\Source.cpp(508,18): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\samli\OneDrive\Documents\SNHU\CS 330 - Computational Graphics and Visualization (OpenGL)\FinalProjectRev4\Final Project Rev 4\Source.cpp(512,19): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\samli\OneDrive\Documents\SNHU\CS 330 - Computational Graphics and Visualization (OpenGL)\FinalProjectRev4\Final Project Rev 4\Source.cpp(513,19): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\samli\OneDrive\Documents\SNHU\CS 330 - Computational Graphics and Visualization (OpenGL)\FinalProjectRev4\Final Project Rev 4\Source.cpp(515,14): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\samli\OneDrive\Documents\SNHU\CS 330 - Computational Graphics and Visualization (OpenGL)\FinalProjectRev4\Final Project Rev 4\Source.cpp(516,14): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\samli\OneDrive\Documents\SNHU\CS 330 - Computational Graphics and Visualization (OpenGL)\FinalProjectRev4\Final Project Rev 4\Source.cpp(525,32): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+  Final Project Rev 4.vcxproj -> C:\Users\samli\OneDrive\Documents\SNHU\CS 330 - Computational Graphics and Visualization (OpenGL)\FinalProjectRev4\Debug\Final Project Rev 4.exe

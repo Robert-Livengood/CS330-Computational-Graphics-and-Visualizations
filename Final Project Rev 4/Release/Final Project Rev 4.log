@@ -1,0 +1,15 @@
+﻿  Source.cpp
+C:\Users\samli\OneDrive\Documents\SNHU\CS 330 - Computational Graphics and Visualization (OpenGL)\FinalProjectRev4\Final Project Rev 4\Source.cpp(358,28): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\samli\OneDrive\Documents\SNHU\CS 330 - Computational Graphics and Visualization (OpenGL)\FinalProjectRev4\Final Project Rev 4\Source.cpp(504,18): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\samli\OneDrive\Documents\SNHU\CS 330 - Computational Graphics and Visualization (OpenGL)\FinalProjectRev4\Final Project Rev 4\Source.cpp(505,18): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\samli\OneDrive\Documents\SNHU\CS 330 - Computational Graphics and Visualization (OpenGL)\FinalProjectRev4\Final Project Rev 4\Source.cpp(509,19): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\samli\OneDrive\Documents\SNHU\CS 330 - Computational Graphics and Visualization (OpenGL)\FinalProjectRev4\Final Project Rev 4\Source.cpp(510,19): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\samli\OneDrive\Documents\SNHU\CS 330 - Computational Graphics and Visualization (OpenGL)\FinalProjectRev4\Final Project Rev 4\Source.cpp(512,14): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\samli\OneDrive\Documents\SNHU\CS 330 - Computational Graphics and Visualization (OpenGL)\FinalProjectRev4\Final Project Rev 4\Source.cpp(513,14): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\samli\OneDrive\Documents\SNHU\CS 330 - Computational Graphics and Visualization (OpenGL)\FinalProjectRev4\Final Project Rev 4\Source.cpp(522,32): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+  Generating code
+  0 of 401 functions ( 0.0%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  Final Project Rev 4.vcxproj -> C:\Users\samli\OneDrive\Documents\SNHU\CS 330 - Computational Graphics and Visualization (OpenGL)\FinalProjectRev4\Release\Final Project Rev 4.exe
