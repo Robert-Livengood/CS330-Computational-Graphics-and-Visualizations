@@ -1,4 +1,4 @@
-# CS330-Computational-Graphics-and-Visualizations
+# CS330 - Computational Graphics and Visualizations
 CS330 Final Project
 -----
 This project's goal was to recreate a scene using the OpenGL API. The imeage for the scene to be recreated can be found below:
