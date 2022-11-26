@@ -34,7 +34,6 @@ A – Pan Left
 D – Pan Right
 <br/>
 Q – Altitude down
-
 <br/>
 E – Altitude UP
 <br/>
