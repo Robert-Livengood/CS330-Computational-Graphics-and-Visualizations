@@ -17,9 +17,7 @@ To model a scene using the entry-level tools that we studied this term; some con
 **Navigation:**
 <br/>
 The program uses input from both a mouse and keyboard. These inputs are taken in real-time and allow for pan, yaw, altitude, and scroll speed adjustments. This allows for a natural and smooth navigation experience. Most of this functionality was provided by the camera header class. By calling the process input function, the camera class was able to use commands correctly. 
-
------
-
+<br/>
 **Basic controls are as follows:**
 <br/>
 W – Forward
