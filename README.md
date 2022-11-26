@@ -1,5 +1,4 @@
 # CS330 - Computational Graphics and Visualizations
-<br/>
 ![image](https://user-images.githubusercontent.com/116769623/204107661-8563b7fa-3e2c-4a3b-afcb-e3b6e85d7304.png)
 <br/>
 **CS330 Final Project**
