@@ -20,6 +20,7 @@ The program uses input from both a mouse and keyboard. These inputs are taken in
 <br/>
 **Basic controls are as follows:**
 <br/>
+<br/>
 W – Forward
 <br/>
 S – Backwards
