@@ -4,8 +4,11 @@
 <br/>
 **CS330 Final Project**
 <br/>
-This project's goal was to recreate the scene above using the OpenGL API. For this project, the goal was to recreate as much of the scene as possible, while staying within the bounds of the scope for this project. The objects are modeled using a combination of basic shapes. The hedges are recreated with cubes and pyramids. The bushes are modeled using spheres. The centerpiece is created using a cube, and 2 pyramids with some textures. And finally, the XZ plane is the ground.
+This project's goal was to recreate the scene above using the OpenGL API. For this project, the goal was to recreate as much of the scene as possible, while staying within the bounds of the scope for this project. The objects are modeled using a combination of basic shapes. The hedges are recreated with cubes and pyramids. The bushes are modeled using spheres. The centerpiece is created using a cube, and 2 pyramids with some textures. And finally, the XZ plane is the ground. A video of the final product is below:
 <br/>
+<br/>
+
+https://user-images.githubusercontent.com/116769623/204109492-df7a5a89-622d-4929-bfa3-c236414e1e0d.mp4
 
 -----
 
@@ -31,6 +34,7 @@ A – Pan Left
 D – Pan Right
 <br/>
 Q – Altitude down
+
 <br/>
 E – Altitude UP
 <br/>
